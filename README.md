@@ -5,7 +5,7 @@
 The Python port mirrors the R workflow in `ReplicationData/R`. Run it from the repo root:
 
 ```sh
-python3 main.py --scenario Preferred --runs 3 --plots
+uv run main.py --scenario Preferred --runs 3 --plots
 ```
 
 Outputs (CSV and optional PDFs) are written to `Output/` by default.
