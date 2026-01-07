@@ -5,6 +5,19 @@ build/
 dist/
 wheels/
 *.egg-info
+.mypy_cache/
+.ruff_cache/
+.vscode/
 
 # Virtual environments
 .venv
+
+# Environment files
+.env
+
+# System files
+.DS_Store
+.Rhistory
+
+# Output files
+Output/
